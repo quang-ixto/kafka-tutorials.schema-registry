@@ -2,7 +2,7 @@
 
 ## Build Project
 
-'''
+```
 mvn generate-sources
 mvn spring-boot:run
-'''
+```
