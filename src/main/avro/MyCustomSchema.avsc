@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "namespace": "com.example.kafka.schemaregistry",
+  "name": "MyCustomSchema",
+  "version": "1",
+  "fields": [
+    { "name": "id", "type": "int", "doc": "Id of the object" },
+    { "name": "name", "type": "string", "doc": "Name of the object" },
+    { "name": "preciseNumber", "type": "float", "doc": "Some floating point field" },
+    { "name": "isEnabled", "type": "boolean", "default": true, "doc": "Some boolean field" },
+    { "name": "timestamp", "type": "string", "doc": "Custom timestamp of the object", "default": null }
+  ]
+}
